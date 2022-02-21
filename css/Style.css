@@ -394,7 +394,7 @@ footer p {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:400px) {
     header{
         grid-template: 10px 1fr 2fr 10px / auto;
         height: 20vh;
@@ -471,7 +471,7 @@ footer p {
         grid-template:10px 1000px 0px 700px 0px 1px/ 30px 1fr 30px;
     }
     .abajo_izquierda{
-        grid-template-rows: 5% repeat(5, 200px) 5%;
+        grid-template-rows: 5% 230px 220px 230px 210px 200px 5%;
         grid-template-columns: 100%;
         gap: 0px;
     }
