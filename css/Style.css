@@ -31,6 +31,8 @@ header{
     height: 20vh;
     align-items: center;
     background-color: rgb(75,90,101);
+    animation-name: primero;
+    animation-duration: 5s;
 }
 
 .caja1{
@@ -38,7 +40,17 @@ header{
     grid-template: 100% / 100px 1fr 1fr 130px;
     background-color: rgb(75,90,101);
     color: white;
+    animation-name: primero;
+    animation-duration: 5s;
 }
+
+@keyframes primero {
+    0%   {background-color: white;}
+    50% {background-color: blue;}
+    100% {background-color: rgb(75,90,101);}
+  }
+
+
 
 h2{
     color: white;
@@ -133,6 +145,14 @@ ul li a{
     display: grid;
     grid-template: 100% /100px repeat(3, 1fr) 100px;
     height: 65vh;
+    animation-name: segundaA;
+    animation-duration: 10s;
+}
+
+@keyframes segundaA {
+    
+  from {width: 60%;}
+  to {width: 100%; }
 }
 
 .carta{
